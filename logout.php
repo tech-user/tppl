@@ -22,7 +22,7 @@
 
     // Redirect to login page
 
-    header("location: index.php");
+    header("location: login2.php");
 
     exit;
 

@@ -102,11 +102,11 @@
 
                         // Bind result variables
 
-                        mysqli_stmt_bind_result($stmt, $username, $hashed_password, $center);
+                        mysqli_stmt_bind_result($stmt, $username, $hashed_password, $center); //$hashed_password
 
                         if(mysqli_stmt_fetch($stmt)){
 
-                            if(password_verify($password, $hashed_password)){
+                            if(password_verify($password, $hashed_password)){    // $hashed_password
 
                                 /* Password is correct, so start a new session and
 
