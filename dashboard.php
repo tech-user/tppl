@@ -10,7 +10,7 @@
 
     // If session variable is not set it will redirect to login page
 
-    if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
+    if(!isset($_SESSION['username']) || empty($_SESSION['username']) || empty($_SESSION['center'])){
 
       header("location: index.php");
 
@@ -44,21 +44,15 @@
 
     <body>
 
-        <div class="page-header">
+      <div class="container-fluid">
 
-            <h1>Hi, <b><?php echo htmlspecialchars($_SESSION['username']); ?></b> <br>Welome to Php Server - login system.</h1>
+          <h4> Center Name: <b><?php echo ucfirst(htmlspecialchars($_SESSION['center'])); ?></b> &emsp;&emsp; Hi, Welcome: <b><?php echo ucfirst(htmlspecialchars($_SESSION['username'])); ?></b></h4>
+          <p><a href="logout.php" class="btn btn-link">Sign Out</a></p>
 
-
-            <!-- <h2> Center : <b><?php echo htmlspecialchars($_SESSION['center']); ?></b></h2> -->
-            <!--should display center name-->
-
-
-        </div>
+      </div>
 
 
 
-
-        <p><a href="logout.php" class="btn btn-danger">Sign Out</a></p>
 
 
 

@@ -82,7 +82,7 @@
                 // Set parameters
 
                 $param_username = $username;
-
+                //$param_center = $center;
 
 
 
@@ -115,6 +115,7 @@
                                 session_start();
 
                                 $_SESSION['username'] = $username;
+                                $_SESSION['center'] = $center;
 
                                 header("location: dashboard.php");
 
@@ -180,6 +181,12 @@
 
 </head>
 <body>
+  <style>
+  body {
+    background-color: #252F37;
+  }
+</style>
+
 
 <div class="container">
   <div class="row">
@@ -227,7 +234,7 @@
             <br>
             <div class="form-group form-group-lg">
               <select class="form-control form-group-lg" value="<?php echo $center; ?>" name="center" style="border:2px solid #4A4A4A; background-color:#252F37; color:#56B681;">
-                  <option value="disabled">Select Center</option>
+                  <option value=""hidden>Select Center</option>
                   <option value="Hyderabad">Hyderabad</option>
                   <option value="Karimnagar">Karimnagar</option>
                   <option value="Nalgonda">Nalgonda</option>
@@ -237,6 +244,7 @@
                 </select>
                 <span class="help-block"><?php echo $center_err; ?></span>
               </div> <br>
+
 
 
               <div class="form-group form-group-lg">
