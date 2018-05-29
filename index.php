@@ -5,6 +5,6 @@
 		$uri = 'http://';
 	}
 	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: login.php');
+	header('Location: login3.php');
 	exit;
 ?>

@@ -2,27 +2,13 @@
 
     <?php
 
-    // Initialize the session
+    session_start();      // Initialize the session
 
-    session_start();
+    $_SESSION = array();  // Unset all of the session variables
 
+    session_destroy();  // Destroy the session.
 
-
-    // Unset all of the session variables
-
-    $_SESSION = array();
-
-
-
-    // Destroy the session.
-
-    session_destroy();
-
-
-
-    // Redirect to login page
-
-    header("location: login2.php");
+    header("location: login3.php"); // Redirect to login page
 
     exit;
 
