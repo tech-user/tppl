@@ -1,0 +1,221 @@
+/* Enter Your Custom CSS Here */
+
+
+@import url('https://fonts.googleapis.com/css?family=Chathura|Gidugu|Gurajada|Mallanna|Mandali|NTR|Ramabhadra|Sree+Krushnadevaraya|Suranna|Suravaram|Tenali+Ramakrishna|Timmana');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Ubuntu|Archivo|Oswald|Nunito');
+
+
+.top-bar{
+background-color:#f1f1f1;
+  
+}
+.top-bar-date{
+color:#dd1f1f;
+}
+
+.top-bar .menu li, .top-bar .menu li a{
+font-size:16px;
+  color:#0064ae;
+  text-decoration:none;
+}
+
+.top-bar .menu li, .top-bar .menu li a:hover{
+color:#dd1f1f;
+text-decoration:underline;
+}
+
+.top-bar .social-widgets ul li a:before {
+color:#dd1f1f;
+  font-size:16px;
+  
+
+}
+
+
+.main-layout-boxed #page .container{
+padding-left:0px;
+  padding-right:0px;
+}
+
+.header-advertisement img {
+float:right;
+width:95%;
+}
+
+.main-navigation-holder{
+background-color:#db2619;
+  border-bottom:0px;
+}
+
+
+.breaking-news-wrap {
+border-bottom:1px solid #dd1f1f;
+  background-color:#fea;
+}
+
+.breaking-news-wrap span{
+color:#dd1f1f;
+}
+
+
+.breaking-news-wrap span:after {
+border-right:1px solid #dd1f1f;
+border-bottom:1px solid #dd1f1f;
+}
+
+.breaking-news-wrap ul.slick-slider li a {
+color:#0064ae;
+}
+
+
+
+
+/* Navigation */
+
+.main-navigation ul li a{
+font-family: 'Nunito', sans-serif;
+font-weight:normal;
+  font-size:16px;
+}
+
+.main-navigation ul li a:hover{
+text-decoration:underline;
+}
+
+
+
+
+#breadcrumb ul li a{
+font-family:'Archivo', sans-serif;
+font-size:16px;
+font-weight:normal;
+  color:#0064ae;
+}
+
+#breadcrumb ul li a:after{
+color:#dd1f1f;
+}
+
+#breadcrumb ul li.trail-end span{
+font-family:'Archivo', sans-serif;
+font-size:16px;
+font-weight:normal;
+color:#0064ae;
+}
+
+#breadcrumb ul li.trail-end span{
+font-family: 'Mandali', sans-serif;
+  font-size:18px;
+  color:#dd1f1f;
+
+}
+
+
+/* side bar*/
+
+.sidebar .widget-title {
+  color:#0064ae;
+  border-bottom:2px solid #dd1f1f;
+}
+
+
+.sidebar ul li a{
+  font-size:18px;
+}
+
+
+#content {
+padding:20px 0 40px 0px
+}
+
+
+/* Slider h2 heading */
+.main-slider article.bigger-post .post-content h2, .main-slider article.bigger-post .post-content h2 a {
+font-size : 38px;
+font-family: 'Sree Krushnadevaraya', sans-serif;
+}
+
+
+h1 {
+font-size : 32px;
+font-family: 'Ramabhadra', sans-serif;
+  color:#fa614f;
+  font-weight:normal;
+}
+
+p, li{
+font-family: 'Mandali', sans-serif;
+  font-size:19px;
+  color:#474747;
+  line-height:28px;
+  
+}
+
+
+.news-item .news-text-wrap h2, .news-item .news-text-wrap h2 a{
+font-family: 'Ramabhadra', sans-serif;
+font-size:28px;
+}
+
+.news-item.layout-two .news-text-wrap h2, .news-item.layout-two .news-text-wrap h2 a {
+font-size:20px;
+}
+
+.news-item .news-text-wrap h2, .news-item .news-text-wrap h2 a:hover{
+color:#0064ae;
+
+}
+
+
+
+/*Subscribe Form width */
+
+.es_textbox_class{
+width:350px;
+}
+
+
+
+
+
+
+/* previous and next links*/
+.post-navigation .nav-previous a, .post-navigation .nav-next a {
+  font-size:22px;
+  font-family: 'Suravaram', sans-serif;
+  color:#2ab391;
+}
+
+
+.post .content-wrap .entry-header h2.entry-title a{
+font-size : 26px;
+font-family: 'Ramabhadra', sans-serif;
+}
+
+.read-more {
+color:#0064ae;
+}
+
+
+.news-item.layout-two .news-text-wrap h2, .news-item.layout-two .news-text-wrap h2 a, .news-item.layout-two .news-text-wrap h3, .news-item.layout-two .news-text-wrap h3 a{
+font-family: 'Ramabhadra', sans-serif;
+font-size:20px;
+}
+
+.news-item .news-text-wrap h2, .news-item .news-text-wrap h2 a, .news-item .news-text-wrap h3, .news-item .news-text-wrap h3 a{
+font-family: 'Ramabhadra', sans-serif;
+font-size:26px;
+}
+
+
+.post .content-wrap .entry-header h2.entry-title a, .search-results #primary article h2.entry-title a, .post .content-wrap .entry-header h3.entry-title a, .search-results #primary article h3.entry-title a{
+font-size: 26px;
+font-family: 'Ramabhadra', sans-serif; 
+color: #db2619;
+}
+
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea, select{
+width:330px;
+}

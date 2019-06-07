@@ -72,14 +72,13 @@
                     echo "Oops! Something went wrong. Please try again later.";
 
                 }
+                // Close statement
 
             }
-
-
-
-            // Close statement
-
             mysqli_stmt_close($stmt);
+
+
+            
 
         }
 
@@ -176,13 +175,15 @@
 
                 }
 
+                // Close statement
+
+            
+            
             }
+                mysqli_stmt_close($stmt);
 
 
-
-            // Close statement
-
-            mysqli_stmt_close($stmt);
+            
 
         }
 
